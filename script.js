@@ -24,7 +24,7 @@ const positionWidth = 42;
 const columns = 17;
 const boardWidth = positionWidth*columns;
 
-const stepTime = 9999; // Miliseconds it takes for the chicken to take a step forward, backward, left or right
+const stepTime = 1; // Miliseconds it takes for the chicken to take a step forward, backward, left or right
 
 let lanes;
 let currentLane;
