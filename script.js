@@ -16,7 +16,7 @@ camera.position.y = initialCameraPositionY;
 camera.position.x = initialCameraPositionX;
 camera.position.z = distance;
 
-const zoom = 1;
+const zoom = 2;
 
 const chickenSize = 99;
 
@@ -24,7 +24,7 @@ const positionWidth = 42;
 const columns = 17;
 const boardWidth = positionWidth*columns;
 
-const stepTime = 1; // Miliseconds it takes for the chicken to take a step forward, backward, left or right
+const stepTime = 190; // Miliseconds it takes for the chicken to take a step forward, backward, left or right
 
 let lanes;
 let currentLane;
